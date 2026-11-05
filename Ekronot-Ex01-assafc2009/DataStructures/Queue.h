@@ -13,7 +13,7 @@ typedef struct Queue
 	int first;
 	int last;//אני מתייחס לזה כאיבר הבא בתור הפנוי במערך 
 	int capacity;
-	int count;//
+	int count;//counts how many filled spaces in queue there are
 } Queue;
 
 void initQueue(Queue* q, unsigned int size);

@@ -3,10 +3,6 @@
 #include <stdlib.h>
 #include <string.h>
 #include <iostream>
-//#include <cmath>
-
-//צריך לבדוק ולשנות בהתאם למה שהתייעתי עם ראם, ולשים לב אם יש בעיות!
-
 
 void initQueue(Queue* q, unsigned int size)//אתחול התור
 {//טוב
