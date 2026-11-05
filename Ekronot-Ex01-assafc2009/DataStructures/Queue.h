@@ -1,10 +1,19 @@
 #ifndef QUEUE_H
 #define QUEUE_H
+#include <iostream>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
 
 
 /* a queue contains positive integer values. */
 typedef struct Queue
 {
+	int* queue;
+	int first;
+	int last;//אני מתייחס לזה כאיבר הבא בתור הפנוי במערך 
+	int capacity;
+	int count;//
 } Queue;
 
 void initQueue(Queue* q, unsigned int size);
